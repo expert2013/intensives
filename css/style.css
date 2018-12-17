@@ -397,6 +397,14 @@ span {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.9px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.about-submit:hover {
+  background: transparent;
+  color: #7dce3f;
+  border: 1px solid #7dce3f;
 }
 
 .form-check {

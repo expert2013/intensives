@@ -17,6 +17,7 @@
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:100,300,400,500&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 </head>
@@ -26,7 +27,7 @@
 	<header class="header">
 		<div class="row">
 			<div class="container">
-				<div class="header-text">
+				<div class="header-text wow fadeInUp">
 					<h1 class="block-title">
 						Делаю сайты <span>для вашего бизнеса</span>
 					</h1>
@@ -50,7 +51,7 @@
 				<h2 class="block-title">Мои работы</h2>
 				<div class="works-items">
 
-					<div class="work-item">
+					<div class="work-item wow fadeInLeftBig" data-wow-delay="0.1s">
 						<div class="work-img">
 							<img src="img/works/work-img-01.jpg" alt="work-1">
 						</div>
@@ -63,7 +64,7 @@
 					</div>
 					<!-- /.work-item -->
 
-					<div class="work-item">
+					<div class="work-item wow fadeInRightBig" data-wow-delay="0.5s">
 						<div class="work-img">
 							<img src="img/works/work-img-02.jpg" alt="work-2">
 						</div>
@@ -76,7 +77,7 @@
 					</div>
 					<!-- /.work-item -->
 
-					<div class="work-item">
+					<div class="work-item wow fadeInLeftBig" data-wow-delay="0.9s">
 						<div class="work-img">
 							<img src="img/works/work-img-01.jpg" alt="work-1">
 						</div>
@@ -89,7 +90,7 @@
 					</div>
 					<!-- /.work-item -->
 
-					<div class="work-item">
+					<div class="work-item wow fadeInRightBig">
 						<div class="work-img">
 							<img src="img/works/work-img-01.jpg" alt="work-1">
 						</div>
@@ -102,7 +103,7 @@
 					</div>
 					<!-- /.work-item -->
 
-					<div class="work-item">
+					<div class="work-item wow fadeInLeftBig">
 						<div class="work-img">
 							<img src="img/works/work-img-01.jpg" alt="work-1">
 						</div>
@@ -233,5 +234,9 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
